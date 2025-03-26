@@ -1,0 +1,38 @@
+*.log
+*.tmp
+*.swp
+.DS_Store
+.env
+.vscode/
+
+# Node 
+NTWebClient/node_modules/
+NTWebClient/dist/
+
+# ASP.NET Core
+NTServer/bin/
+NTServer/obj/
+NTServer/.vs/
+NTServer/*.user
+NTServer/*.suo
+
+# Unity (game-client)
+NTGameClient/Library/
+NTGameClient/Temp/
+NTGameClient/Obj/
+NTGameClient/Build/
+NTGameClient/Builds/
+NTGameClient/UserSettings/
+NTGameClient/Logs/
+NTGameClient/Packages/com.unity.collab-proxy/
+
+# Unity generated metadata
+*.tga
+*.psd
+*.mat
+*.metadata
+*.unitypackage
+*.pidb
+*.user
+*.sln
+*.csproj
